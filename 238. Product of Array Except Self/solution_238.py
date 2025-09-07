@@ -24,4 +24,3 @@ class Solution:
         for i in range(len(nums)):
             res.append(product_left[i] * product_right[i])
         return res
-

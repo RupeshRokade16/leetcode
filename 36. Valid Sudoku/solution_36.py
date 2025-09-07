@@ -26,3 +26,4 @@ class Solution:
                 grid[(r//3,c//3)].add(curr_num)  
 
         return True
+    

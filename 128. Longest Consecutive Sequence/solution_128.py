@@ -37,7 +37,3 @@ class Solution:
                 curr += 1
             longest = max(curr_len,longest)
         return longest
-
-
-
-
