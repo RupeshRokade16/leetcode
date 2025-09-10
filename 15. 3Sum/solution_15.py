@@ -16,7 +16,13 @@ class Solution:
         if sum < 0, i'll update left
         if sum == 0, I'll store the ans and then update ptr while avoiding duplicates
             -all I need to do is update just 1 of the 2 ptrs
-    
+
+    T: O(nlogn) + O(n^2) = O(n^2)
+    S: O(1) or O(n), depends on the sorting library
+
+    Additional notes:
+        This can be reduced to a Problem 167. Two Sum II type problem with the added twist
+        of duplicates and non sorted input list 
     """
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
