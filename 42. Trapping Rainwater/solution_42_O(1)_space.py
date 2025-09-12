@@ -35,7 +35,7 @@ _class Solution:
 
 
         Intuition                 First solution	                Second solution
-When water is computed	At current pointer before moving	At pointer after moving
+      When water is computed	At current pointer before moving	At pointer after moving
 Needs to evaluate when l == r?	✅ Yes—last cell still pending	  ❌ No—meeting means finished
         Loop condition	        while l <= r	                    while l < r
         """
