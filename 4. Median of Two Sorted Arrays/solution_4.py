@@ -34,7 +34,8 @@ class Solution:
 
         Note that since we automatically fill up the remaining values from larger array, we can comfortably binary search on smaller array
 
-        The ptrs we make are prone to go out of bounds, (in cases where we are taking the entire smaller array, so we add edge cases to it)
+        The ptrs we make are prone to go out of bounds (either over or under), 
+        (in cases where we are taking the entire smaller array, so we add edge cases to it)
 
         """
 
